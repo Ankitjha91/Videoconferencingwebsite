@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #7d017b;
+  color: rgb(216, 248, 6);
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+video {
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  background-color: #760202;
+  color: rgb(255, 251, 6);
+  padding: 0.5rem;
+}
